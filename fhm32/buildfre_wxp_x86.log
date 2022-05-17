@@ -1,0 +1,68 @@
+BUILD: Examining e:\sources\fhm32 directory for files to compile.
+Compiling (NoSync) e:\sources\fhm32 directory ********************
+1>'nmake.exe /nologo BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 PASS1_NOLIB=1 386=1'
+1>BUILDMSG: Processing e:\sources\fhm32
+1>cl -nologo -Ii386\ -I. -IF:\WINDDK\3790~1.183\inc\mfc42 -Iobjfre_wxp_x86\i386 -IF:\WINDDK\3790~1.183\inc\wxp -IF:\WINDDK\3790~1.183\inc\wxp -IF:\WINDDK\3790~1.183\inc\ddk\wxp -IF:\WINDDK\3790~1.183\inc\ddk\wdm\wxp -IF:\WINDDK\3790~1.183\inc\crt -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0501 /DWINVER=0x0501 -D_WIN32_IE=0x0603    -DWIN32_LEAN_AND_MEAN=1 -DDEVL=1 -D__BUILDMACHINE__=WinDDK -DFPO=0  -DNDEBUG -D_DLL=1      /c /Zl /Zp8 /Gy /Gm- -cbstring /W3 /WX /Gz  /GX-  /GR- /GF /GS /G6 /Ze /Gi- /QIfdiv- /hotpatch -Z7 /Oxs  /Oy-   -FIF:\WINDDK\3790~1.183\inc\wxp\warning.h   .\fhmdrvr.c .\fhmfunc.c .\rootkit.c .\processlist.c .\memscan.c .\threads.c .\newkernel.c 
+1>fhmdrvr.c
+1>fhmfunc.c
+1>rootkit.c
+1>processlist.c
+1>memscan.c
+1>threads.c
+1>newkernel.c
+1>Generating Code...
+1>
+1>Stop.
+Compiling  e:\sources\fhm32 directory ********************
+100>'nmake.exe /nologo BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+100>BUILDMSG: Processing e:\sources\fhm32
+100>
+100>Stop.
+Linking e:\sources\fhm32 directory ********************
+1>'nmake.exe /nologo BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+1>BUILDMSG: Processing e:\sources\fhm32
+1>	link -out:objfre_wxp_x86\i386\fhm32.sys -machine:ix86 @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\nm398.tmp
+1>Microsoft (R) Incremental Linker Version 7.10.4035
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>
+1>-MERGE:_PAGE=PAGE 
+1>-MERGE:_TEXT=.text 
+1>-SECTION:INIT,d 
+1>-OPT:REF 
+1>-OPT:ICF 
+1>-IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+1>-INCREMENTAL:NO 
+1>-FULLBUILD 
+1>/release 
+1>-NODEFAULTLIB 
+1>/WX 
+1>-debug 
+1>-debugtype:cv 
+1>-version:5.1 
+1>-osversion:5.1 
+1>/functionpadmin:5 
+1>/safeseh 
+1>/pdbcompress 
+1>-STACK:0x40000,0x1000 
+1>-driver 
+1>-base:0x10000 
+1>-align:0x80 /stub:F:\WINDDK\3790~1.183\lib\wxp\stub512.com 
+1>-subsystem:native,5.01 
+1>-entry:GsDriverEntry@8 
+1>-out:objfre_wxp_x86\i386\fhm32.sys 
+1>objfre_wxp_x86\i386\fhmdrvr.obj 
+1>objfre_wxp_x86\i386\fhmfunc.obj 
+1>objfre_wxp_x86\i386\rootkit.obj 
+1>objfre_wxp_x86\i386\processlist.obj 
+1>objfre_wxp_x86\i386\memscan.obj 
+1>objfre_wxp_x86\i386\threads.obj 
+1>objfre_wxp_x86\i386\newkernel.obj 
+1>F:\WINDDK\3790~1.183\lib\wxp\i386\BufferOverflowK.lib 
+1>F:\WINDDK\3790~1.183\lib\wxp\i386\ntoskrnl.lib 
+1>F:\WINDDK\3790~1.183\lib\wxp\i386\hal.lib 
+1>F:\WINDDK\3790~1.183\lib\wxp\i386\wmilib.lib 
+1>F:\WINDDK\3790~1.183\lib\wxp\i386\sehupd.lib 
+1>	echo Skip Binplace:
+1>Skip Binplace:
+1>
+1>Stop.

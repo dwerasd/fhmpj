@@ -1,0 +1,44 @@
+MUI_386_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\fhmdrvr.obj \
+    $(_OBJ_DIR)\i386\fhmfunc.obj \
+    $(_OBJ_DIR)\i386\rootkit.obj \
+    $(_OBJ_DIR)\i386\processlist.obj \
+    $(_OBJ_DIR)\i386\memscan.obj \
+    $(_OBJ_DIR)\i386\threads.obj \
+    $(_OBJ_DIR)\i386\newkernel.obj
+
+MUI_IA64_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\fhmdrvr.obj \
+    $(_OBJ_DIR)\ia64\fhmfunc.obj \
+    $(_OBJ_DIR)\ia64\rootkit.obj \
+    $(_OBJ_DIR)\ia64\processlist.obj \
+    $(_OBJ_DIR)\ia64\memscan.obj \
+    $(_OBJ_DIR)\ia64\threads.obj \
+    $(_OBJ_DIR)\ia64\newkernel.obj
+
+MUI_AMD64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\fhmdrvr.obj \
+    $(_OBJ_DIR)\amd64\fhmfunc.obj \
+    $(_OBJ_DIR)\amd64\rootkit.obj \
+    $(_OBJ_DIR)\amd64\processlist.obj \
+    $(_OBJ_DIR)\amd64\memscan.obj \
+    $(_OBJ_DIR)\amd64\threads.obj \
+    $(_OBJ_DIR)\amd64\newkernel.obj
+
+MUI_ARM_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\fhmdrvr.obj \
+    $(_OBJ_DIR)\arm\fhmfunc.obj \
+    $(_OBJ_DIR)\arm\rootkit.obj \
+    $(_OBJ_DIR)\arm\processlist.obj \
+    $(_OBJ_DIR)\arm\memscan.obj \
+    $(_OBJ_DIR)\arm\threads.obj \
+    $(_OBJ_DIR)\arm\newkernel.obj
+

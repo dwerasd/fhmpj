@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: fhm32dll - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1A5.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "FHM32DLL_EXPORTS" /FR"Release/" /Fp"Release/fhm32dll.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Sources\fhm32dll\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1A5.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1A6.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/fhm32dll.pdb" /machine:I386 /out:"Release/fhm32dll.dll" /implib:"Release/fhm32dll.lib" 
+.\Release\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1A6.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+E:\Sources\fhm32dll\main.cpp(225) : warning C4700: local variable 'cc2' used without having been initialized
+E:\Sources\fhm32dll\main.cpp(226) : warning C4700: local variable 'cc3' used without having been initialized
+Linking...
+Creating command line "bscmake.exe /nologo /o"Release/fhm32dll.bsc"  .\Release\main.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+fhm32dll.dll - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

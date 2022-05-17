@@ -1,0 +1,5 @@
+typedef struct _DEVICE_EXTENSION {
+	
+	DWORD			nCount;
+	
+} DEVICE_EXTENSION, *PDEVICE_EXTENSION;	

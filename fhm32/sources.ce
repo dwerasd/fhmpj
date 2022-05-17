@@ -1,0 +1,7 @@
+TARGETNAME=fhm32
+TARGETPATH=obj
+TARGETTYPE=DRIVER
+SOURCES=FHMDrvr.c \
+ FHMFunc.c  \
+rootkit.c  \
+processlist.c memscan.c threads.c vmxhelper.c newkernel.c
